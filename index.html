@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>HTML5 Playlist Editor</h1>
+    <div class="video-container">
+        <video controls src="videos/">
+          <!-- <source src="videos/dragonaut.mp4" type="video/mp4"> -->
+        </video>
+        <h3>A short video for your listening/watching plezure.</h3>
+    </div>
+
+    <div id="controls">
+        <i class="fa fa-battery-quarter" id="slowDown" aria-hidden="true"></i>
+        <!-- show playbackRate -->
+        <i class="fa fa-battery-full" id="speedUp" aria-hidden="true"></i>
+    </div>
+
+    <div id="videonames"></div>
+    <script src="js/speedControls.js"></script>
+    <script src="js/playNextVideo.js"></script>
+    <script src="js/videoPlayButtonHandler.js"></script>
+    <script src="js/loadVideoNames.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
