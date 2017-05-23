@@ -9,7 +9,7 @@ function loadVideos(){
     return res.json();
   })
   .then(function(resJson) {
-    console.log(resJson);
+    // console.log(resJson);
     vijyaList = resJson.videoList;
     var videoNamesContainer = document.getElementById('videonames');
     var videoNameElements = "";
